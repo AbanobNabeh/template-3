@@ -1718,6 +1718,16 @@ a {
   border-top: 1px solid #444;
 }
 
+.scroller {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background-color: var(--main-color);
+  z-index: 99999;
+}
+
 @media (max-width: 991px) {
   .discount .form {
     flex-basis: 100%;
