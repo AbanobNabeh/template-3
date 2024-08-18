@@ -961,6 +961,7 @@ a {
 .our-skills .skill .the-progress {
   height: 30px;
   background-color: #eee;
+  border-radius: 6px;
   position: relative;
 }
 
@@ -968,7 +969,10 @@ a {
   position: absolute;
   left: 0;
   top: 0;
+  border-radius: 6px;
   height: 100%;
+  width: 0;
+  transition: 0.5s;
   background-color: var(--main-color);
 }
 
